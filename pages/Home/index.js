@@ -6,7 +6,7 @@ import Umbrella from 'assets/images/umbrella.png';
 import Blanket from 'assets/images/blanket.png';
 import CzfLogo from 'assets/images/czflogo.png';
 import CzusdLogo from 'assets/images/czusd.png';
-import CzfPump from 'assets/images/pump.png';
+import CzfPump from 'assets/images/pump2.png';
 import Partners from 'assets/images/circle.png';
 import MotherChild from 'assets/images/mother-child.png';
 import CzfLift from 'assets/images/grainlift.png';
@@ -184,22 +184,23 @@ class BackToTop extends Component {
                         </a>
                     </p>
                     <hr />
-                    <figure class="image is-pulled-right ml-5" style={{maxWidth:"20%",width:"90px"}}>
-                        <img src={CzfPump}/>
-                    </figure>
-                    <p class="title pt-5 is-size-5 mb-0">
-                        CZF Chrono Pools
-                    </p>
-                    <p>
-                    Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount.
-                    </p>
-                    <p class="title pt-5 is-size-5 mb-0">
-                        CZF Exotic Farms
-                    </p>
-                    <p>
-                    Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
-                    </p>
-                    <br/>
+                    <div class="container">
+                        <figure class="image is-pulled-right" style={{maxWidth:"20%",width:"90px"}}>
+                            <img src={CzfPump}/>
+                        </figure>
+                        <p class="title pt-5 is-size-5 mb-0">
+                            CZF Chrono Pools
+                        </p>
+                        <p>
+                        Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount.
+                        </p>
+                        <p class="title pt-5 is-size-5 mb-0">
+                            CZF Exotic Farms
+                        </p>
+                        <p>
+                        Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
+                        </p>
+                    </div>
                     <a class="mr-2 button is-rounded is-primary" href="https://cz.farm" target="_blank">
                         <span class="icon">
                             <i class="fa-solid fa-circle-dollar-to-slot" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
