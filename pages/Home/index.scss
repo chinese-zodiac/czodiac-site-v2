@@ -1,0 +1,43 @@
+.has-background-gradient{
+    background: rgb(243, 238, 230);
+    background: linear-gradient(190deg, rgba(192,133,42,0.05) 0%, rgba(192,78,42,0.05) 100%);
+}
+
+button.is-rounded, a.button.is-rounded{
+    padding-top:0.55em;
+    //box-shadow: 1px 1px 0px #333;
+}
+
+#czf{
+    background-color: #d7e4d7;
+    .button.is-primary{
+        background-color:#7abd7a;
+    }
+    hr {
+        background-color:#7abd7a
+    }
+}
+
+#czusd{
+    background-color: #d8c2c2;
+    .button.is-primary{
+        background-color:#8f4242;
+    }
+    hr {
+        background-color:#8f4242
+    }
+}
+
+#nft{
+    background-color: #f6fafa;
+    .button.is-primary{
+        background-color:#95b1ae;
+    }
+}
+
+#team{
+    img {
+        border:solid;
+        background:white;
+    }
+}

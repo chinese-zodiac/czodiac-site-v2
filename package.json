@@ -1,8 +1,9 @@
 {
-  "name": "next-bulma",
+  "name": "czodiac-site-v2",
   "version": "1.0.0",
-  "description": "NextJs with Bulma CSS framework",
-  "license": "MIT",
+  "homepage": ".",
+  "description": "The First Global Defi Bank",
+  "license": "GPL-3.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -12,11 +13,12 @@
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "bulma": "^0.7.5",
+    "bulma": "^0.9.3",
+    "bulma-accordion": "^2.0.1",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "next": "^8.1.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^6.0.0",
     "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.10.1",

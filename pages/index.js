@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import HomeScreen from 'screens/Home';
+import Home from "./Home";
 
 class Index extends Component {
   render() {
-    return <HomeScreen />;
+    return <Home />;
   }
 }
 

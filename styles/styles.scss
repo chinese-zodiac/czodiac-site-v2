@@ -1,5 +1,9 @@
 @import "./theme";
 
+body{
+  background-color: $background;
+}
+
 .full-width {
   width: 100%;
 }
@@ -18,4 +22,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.is-secondary, .hero.is-dark a.is-secondary {
+  color:$secondary !important;
+}
+
+.footer .content a{
+  color:$primary;
+}
+
+.image img{
+  max-width:750px;
+}
+
+.image-ontop{
+  height:0px;
+  overflow: visible;
 }

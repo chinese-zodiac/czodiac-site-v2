@@ -3,7 +3,6 @@ import Head from 'next/head';
 import React from 'react';
 import NProgress from 'nprogress';
 import Router, { withRouter } from 'next/router';
-import Layout from 'components/Layout';
 import 'styles/styles.scss';
 
 Router.onRouteChangeStart = () => NProgress.start();
@@ -25,11 +24,9 @@ class MyApp extends App {
     return (
       <Container>
         <Head>
-          <title>Lava X | NextJS with Bulma Starter</title>
+          <title>CZODIAC | The First Global Defi Bank</title>
         </Head>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Component {...pageProps} />
       </Container>
     );
   }
