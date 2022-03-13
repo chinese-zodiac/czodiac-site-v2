@@ -3,11 +3,7 @@ const withSass = require('@zeit/next-sass');
 const withImages = require('next-images');
 
 const nextConfig = {
-  exportPathMap: function() {
-    return {
-      '/': { page: '/' },
-    };
-  },
+  trailingSlash:true
 };
 
 module.exports = withPlugins([withSass, withImages], nextConfig);
