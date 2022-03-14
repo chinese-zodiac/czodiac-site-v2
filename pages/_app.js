@@ -36,6 +36,17 @@ class MyApp extends App {
         <meta property="og:description" content="Yield from assets backing CZUSD burn CZF with profits building a rising price floor." />
         <meta property="og:type" content="article" />
         <meta property="og:image" content={"https://czodiac.com"+OpenGraphImg} />
+        <meta property="og:image:width" content="1200" /> 
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="https://czodiac.com" />
+        <meta name="twitter:title" content="CZODIAC | The First Global Defi Bank"/>
+        <meta name="twitter:image" content={"https://czodiac.com"+OpenGraphImg} />
+        <meta name="twitter:image:width" content="1200"/>
+        <meta name="twitter:image:height" content="630"/>
+        <meta name="twitter:description" content="Yield from assets backing CZUSD burn CZF with profits building a rising price floor."/>
+
 
         </Head>
         <Component {...pageProps} />
