@@ -226,7 +226,7 @@ class BackToTop extends Component {
                     </figure>
                     <br/>
                     <p>
-                    CZUSD is backed by a basket of USD denominated assets to support its peg.
+                    CZUSD is backed by a basket of stable USD assets which support its peg to $1.
                     <br/>Our dex frontend router, <a class="is-underlined" href="https://cz.cash">cz.cash</a>, provides easy trading of CZUSD and tokens backed by it.
                     </p>
                     <a class="mr-2 mt-2 button is-rounded is-primary" href={CZUSD_AUTOFARM_STAKE} target="_blank">
