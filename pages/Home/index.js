@@ -250,7 +250,7 @@ class BackToTop extends Component {
         <section id="nft" class="hero is-fullheight has-text-centered">
             <div class="hero-body">
                 <div class="container">
-                    <p class="is-size-4"><b>Weekly CZF Airdrop to all CZodiacNFT holders.</b></p>
+                    <p class="is-size-4"><b>Weekly CZF Airdrop to all CZodiac NFT holders.</b></p>
                     <p>
                     An NFT series with regular releases of new creatures representing the cycle of Chinese Zodiacs.
                     <br/>All CZodiac NFT holders are airdropped CZF once a week, forever.
