@@ -26,6 +26,8 @@ class MyApp extends App {
       <Container>
         <Head>
           <title>CZODIAC | The First Global Defi Bank</title>
+          <meta name="description" content= "Yield from assets backing CZUSD burn CZF with profits building a rising price floor." />
+          <meta name="robots" content= "index, follow"></meta>
           
         <meta property="og:title" content="CZODIAC | The First Global Defi Bank" />
         <meta property="og:site_name" content="CZodiac" />

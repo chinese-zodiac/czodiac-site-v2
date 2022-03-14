@@ -347,17 +347,33 @@ class BackToTop extends Component {
         <footer id="footer" class="footer is-dark">
           <div class="content has-text-centered">
             <p>
-              <a class="mr-5 is-underlined" href={"https://bscscan.com/token/"+CZF} target="_blank">
-                CZF CA
+              <a class="m-2 mr-4 is-underlined" href={"https://bscscan.com/token/"+CZF} target="_blank">
+                <figure class="image is-16x16 is-rounded m-0" style={{display:"inline-block",top:"2px",position:"relative"}}>
+                    <img src={CzfLogo} />
+                </figure>
               </a>
-              <a class="mr-5 is-underlined" href={"https://bscscan.com/token/"+CZUSD} target="_blank">
-                CZUSD CA
+              <a class="m-2 mr-3 is-underlined" href={"https://bscscan.com/token/"+CZUSD} target="_blank">
+                <figure class="image is-16x16 is-rounded m-0" style={{display:"inline-block",top:"2px",position:"relative"}}>
+                    <img src={CzusdLogo} />
+                </figure>
               </a>
-              <a class="mr-5 is-underlined" href={TELEGRAM} target="_blank">
-                Telegram
+              <a class="m-2 is-underlined" href={TELEGRAM} target="_blank">
+                <span class="icon"><i class="fa-brands fa-telegram"></i></span>
               </a>
-              <a class="mr-5 is-underlined" href={TWITTER} target="_blank">
-                Twitter
+              <a class="m-2 is-underlined" href={TWITTER} target="_blank">
+                <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+              </a>
+              <a class="m-2 is-underlined" href="https://czodiacs.medium.com/" target="_blank">
+                <span class="icon"><i class="fa-brands fa-medium"></i></span>
+              </a>
+              <a class="m-2 is-underlined" href="https://github.com/chinese-zodiac" target="_blank">
+                <span class="icon"><i class="fa-brands fa-github"></i></span>
+              </a>
+              <a class="m-2 is-underlined" href="https://discord.gg/nzHjq6Vewd" target="_blank">
+                <span class="icon"><i class="fa-brands fa-discord"></i></span>
+              </a>
+              <a class="m-2 is-underlined" href="https://czodiac.gitbook.io/czodiac-litepapper" target="_blank">
+                <span class="icon"><i class="fa-solid fa-book"></i></span>
               </a>
             </p>
             <p>
