@@ -28,13 +28,14 @@ class MyApp extends App {
           <title>CZODIAC | The First Global Defi Bank</title>
           <meta name="description" content= "Yield from assets backing CZUSD burn CZF with profits building a rising price floor." />
           <meta name="robots" content= "index, follow"></meta>
+          <meta property="og:locale" content="en_EN"/>
           
         <meta property="og:title" content="CZODIAC | The First Global Defi Bank" />
         <meta property="og:site_name" content="CZodiac" />
         <meta property="og:url" content="https://czodiac.com" />
         <meta property="og:description" content="Yield from assets backing CZUSD burn CZF with profits building a rising price floor." />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={OpenGraphImg} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content={"https://czodiac.com"+OpenGraphImg} />
 
         </Head>
         <Component {...pageProps} />
