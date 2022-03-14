@@ -3,6 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import NProgress from 'nprogress';
 import Router, { withRouter } from 'next/router';
+import OpenGraphImg from 'assets/opengraph.jpg';
 import 'styles/styles.scss';
 
 Router.onRouteChangeStart = () => NProgress.start();
@@ -25,6 +26,14 @@ class MyApp extends App {
       <Container>
         <Head>
           <title>CZODIAC | The First Global Defi Bank</title>
+          
+        <meta property="og:title" content="CZODIAC | The First Global Defi Bank" />
+        <meta property="og:site_name" content="CZodiac" />
+        <meta property="og:url" content="https://czodiac.com" />
+        <meta property="og:description" content="Yield from assets backing CZUSD burn CZF with profits building a rising price floor." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={OpenGraphImg} />
+
         </Head>
         <Component {...pageProps} />
       </Container>
