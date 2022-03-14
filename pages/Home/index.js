@@ -65,9 +65,9 @@ class BackToTop extends Component {
             <figure class="image is-3by1">
                 <img src={CZodiacLogoWide} />
             </figure>
-            <p class="title is-size-5 has-text-weight-bold" >
+            <p class="title is-size-4 is-cursive" >
               <br/>
-              The Global Defi Investment Bank
+              The Global Defi Investment Bank.
             </p>
             <p class="subtitle is-size-6">
             Yield from assets backing CZUSD burn CZF,<br/>with profits building a rising price floor.
@@ -96,20 +96,20 @@ class BackToTop extends Component {
         <section id="about" class="hero is-fullheight has-background-grey-lighter">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title is-size-3" >
+                    <p class="title is-size-3 is-cursive" >
                         Safety in the storm.
                     </p>
                     <ul>
-                        <li class="mb-2">
-                            <b>Hardened: </b><br/>
+                        <li class="mb-3">
+                            <span class="title pt-5 is-size-5 mb-0">HARDENED:</span><br/>
                             Market dumps, fud campaigns, hacker exploits, Malicious bots. Our experience and technology protects against all threats.
                         </li>
-                        <li class="mb-2">
-                            <b>Community: </b><br/>
+                        <li class="mb-3">
+                            <span class="title pt-5 is-size-5 mb-0">COMMUNITY: </span><br/>
                             Devs abandon their community at the first sign of trouble. Not us. Our battle hardened devs fight for you no matter what.
                         </li>
                         <li>
-                            <b>Stability: </b><br/>
+                            <span class="title pt-5 is-size-5 mb-0">STABILITY: </span><br/>
                             Weak projects rent liquidity from VC that disappears. Our treasury invests our assets to earn yield burning CZF for a rising price floor.
                         </li>
                     </ul>
@@ -125,8 +125,8 @@ class BackToTop extends Component {
         <section id="fairtribe" class="hero is-fullheight has-background-white-ter has-text-centered">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title is-size-3 mb-2">
-                        FAIRTRIBE
+                    <p class="title is-size-3 mb-2 is-cursive">
+                        Fair Tribe.
                     </p>
                     <p>FairTribe by CZodiac specializes in using CZUSD to create 100% fair launches.</p>
                     <ul class="has-text-left mt-3 pl-4" style={{maxWidth:"250px",marginLeft:"auto",marginRight:"auto"}}>
@@ -167,7 +167,7 @@ class BackToTop extends Component {
                             <img src={CzfLogo} />
                         </figure>
                         <br/>
-                        Safe Yield. <br/> Rising Floor. <br/> CZFarm.
+                        Safe Yield. <br/> Rising Floor. <br/> <span class="is-cursive is-size-3">Czfarm.</span>
                     </p>
                     <p class="pt-4">
                         <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency="+CZF} target="_blank">
@@ -219,15 +219,15 @@ class BackToTop extends Component {
                         <figure class="image is-64x64 is-rounded is-pulled-left mr-3">
                             <img src={CzusdLogo} />
                         </figure>
-                    <p class="has-text-left title">CZUSD:</p>
-                    <p class="has-text-left subtitle">Earn high yield safely.</p>
+                    <p class="has-text-left title is-cursive">Czusd.</p>
+                    <p class="has-text-left subtitle is-size-6">Earn high yield safely.</p>
                     <figure class="image">
                         <img src={CzusdFactory} style={{marginLeft:"auto",marginRight:"auto"}} />
                     </figure>
                     <br/>
                     <p>
                     CZUSD is backed by a basket of USD denominated assets to support its peg.
-                    <br/>Our dex frontend router, cz.cash, provides easy trading of CZUSD and tokens backed by it.
+                    <br/>Our dex frontend router, <a class="is-underlined" href="https://cz.cash">cz.cash</a>, provides easy trading of CZUSD and tokens backed by it.
                     </p>
                     <a class="mr-2 mt-2 button is-rounded is-primary" href={CZUSD_AUTOFARM_STAKE} target="_blank">
                         <span class="icon">
@@ -250,7 +250,7 @@ class BackToTop extends Component {
         <section id="nft" class="hero is-fullheight has-text-centered">
             <div class="hero-body">
                 <div class="container">
-                    <p class="is-size-4"><b>Weekly CZF Airdrop to all CZodiac NFT holders.</b></p>
+                    <p class="is-size-3 is-cursive"><b>Nfts with yield.</b></p>
                     <p>
                     An NFT series with regular releases of new creatures representing the cycle of Chinese Zodiacs.
                     <br/>All CZodiac NFT holders are airdropped CZF once a week, forever.
@@ -273,7 +273,7 @@ class BackToTop extends Component {
         <section id="team" class="hero is-fullheight has-background-gradient has-text-centered">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title mt-2">Who We Are.</p>
+                    <p class="title mt-2 is-cursive">Who We Are.</p>
                     <p class="mb-4">Our team of professional executives are KYC with backgrounds in blockchain, startups, and new technologies.</p>
                     <div class="columns is-mobile" style={{maxWidth:"450px",marginLeft:"auto",marginRight:"auto"}}>
                         <div class="column">
@@ -332,7 +332,7 @@ class BackToTop extends Component {
         <section id="partners" class="hero is-fullheight has-background-grey-lighter has-text-centered">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title mt-2">The Best of Defi.</p>
+                    <p class="title mt-2 is-cursive">The Best of Defi.</p>
                     <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, and more. </p>
                     <figure style={{marginLeft:"auto",marginRight:"auto",maxWidth:"256px"}}>
                         <img src={Partners}  />
@@ -381,7 +381,9 @@ class BackToTop extends Component {
             </p>
             <p>
               <strong>Legal Disclaimer</strong><br/>
-              Nothing on this site or on related channels should be considered a promise by anyone, including but not limited to the developers and promoters of this site, to perform work to generate profits for anyone including but not limited to the following: the users of this site; FairTribe community members; CZF holders; CZUSD holders; or anyone using any of the sites, smart contracts, social media channels, and any other media or tech related to CZF, CZUSD, and CZodiac or any of the community members. CZodiac, CZF, CZUSD, czodiac.com, cz.cash, cz.farm, and related technologies plus media are all experimental and must be used according to your personal financial situation and risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
+              <span class="is-size-7">
+                Nothing on this site or on related channels should be considered a promise by anyone, including but not limited to the developers and promoters of this site, to perform work to generate profits for anyone including but not limited to the following: the users of this site; FairTribe community members; CZF holders; CZUSD holders; or anyone using any of the sites, smart contracts, social media channels, and any other media or tech related to CZF, CZUSD, and CZodiac or any of the community members. CZodiac, CZF, CZUSD, czodiac.com, cz.cash, cz.farm, and related technologies plus media are all experimental and must be used according to your personal financial situation and risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
+                </span>
               </p>
             <p>
               <strong>Contact</strong><br/>
