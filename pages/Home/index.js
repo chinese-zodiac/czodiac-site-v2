@@ -65,7 +65,7 @@ class BackToTop extends Component {
             <figure class="image is-3by1">
                 <img src={CZodiacLogoWide} />
             </figure>
-            <p class="title is-size-4 is-cursive" >
+            <p class="title is-size-5 is-cursive" >
               <br/>
               The Global Defi Investment Bank.
             </p>
@@ -96,7 +96,7 @@ class BackToTop extends Component {
         <section id="about" class="hero is-fullheight has-background-grey-lighter">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title is-size-3 is-cursive" >
+                    <p class="title is-size-4 is-cursive" >
                         Safety in the storm.
                     </p>
                     <ul>
@@ -162,12 +162,12 @@ class BackToTop extends Component {
         <section id="czf" class="hero is-fullheight has-text-left">
             <div class="hero-body">
                 <div class="container">
-                    <p class="title is-size-4" >
+                    <p class="title is-size-5" >
                         <figure class="image is-128x128 is-rounded is-pulled-left mr-3">
                             <img src={CzfLogo} />
                         </figure>
                         <br/>
-                        Safe Yield. <br/> Rising Floor. <br/> <span class="is-cursive is-size-3">Czfarm.</span>
+                        Safe Yield. <br/> Rising Floor. <br/> <span class="is-cursive is-size-4">Czfarm.</span>
                     </p>
                     <p class="pt-4">
                         <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency="+CZF} target="_blank">

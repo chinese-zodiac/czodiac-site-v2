@@ -4,6 +4,7 @@ import React from 'react';
 import NProgress from 'nprogress';
 import Router, { withRouter } from 'next/router';
 import OpenGraphImg from 'assets/opengraph.jpg';
+import 'assets/fonts/stylesheet.css';
 import 'styles/styles.scss';
 
 Router.onRouteChangeStart = () => NProgress.start();
