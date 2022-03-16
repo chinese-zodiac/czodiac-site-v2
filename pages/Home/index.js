@@ -49,7 +49,7 @@ class BackToTop extends Component {
       return (<>
       <section id="home" class="hero is-fullheight has-background-gradient">
         <div class="hero-title">            
-            <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small mr-5 ml-5" aria-label="breadcrumbs">
+            <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small mr-5 ml-5 mb-0" aria-label="breadcrumbs">
                 <ul>
                     <li><a href="#fairtribe">FAIRTRIBE</a></li>
                     <li><a href="#czf">CZF</a></li>
@@ -59,6 +59,28 @@ class BackToTop extends Component {
                     <li ><a href="#partners" >PARTNERS</a></li>
                 </ul>
             </nav>
+            <div class="container has-text-right pr-5">
+                <a class="button is-rounded m-1 is-small" href="https://cz.cash" target="_blank">
+                    <span class="icon">
+                        <i class="fa-solid fa-arrow-right-arrow-left" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>cz.cash</span>
+                </a>
+                <a class="button is-rounded m-1 is-small" href="https://cz.farm" target="_blank">
+                    <span class="icon">
+                        <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>cz.farm</span>
+                </a>
+                <a class="button is-rounded m-1 is-small" href="https://app.czodiac.com" target="_blank">
+                    <span class="icon">
+                        <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>v1 dapp</span>
+                </a>
+            </div>
+            
+            
         </div>
         <div class="hero-body">
           <div class="container has-text-centered " style={{maxWidth:"700px"}}>
@@ -377,8 +399,28 @@ class BackToTop extends Component {
               </a>
             </p>
             <p>
-              
+                <div class="container has-text-centered">
+                    <a class="button is-rounded m-1 is-small" href="https://cz.cash" target="_blank">
+                        <span class="icon">
+                            <i class="fa-solid fa-arrow-right-arrow-left" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                        </span>
+                        <span style={{padding:"0"}}>cz.cash</span>
+                    </a>
+                    <a class="button is-rounded m-1 is-small" href="https://cz.farm" target="_blank">
+                        <span class="icon">
+                            <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                        </span>
+                        <span style={{padding:"0"}}>cz.farm</span>
+                    </a>
+                    <a class="button is-rounded m-1 is-small" href="https://app.czodiac.com" target="_blank">
+                        <span class="icon">
+                            <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                        </span>
+                        <span style={{padding:"0"}}>v1 dapp</span>
+                    </a>
+                </div>              
             </p>
+            <br/>
             <p>
               <strong>Legal Disclaimer</strong><br/>
               <span class="is-size-7">
