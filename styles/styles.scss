@@ -27,6 +27,13 @@ body{
 .is-secondary, .hero.is-dark a.is-secondary {
   color:$secondary !important;
 }
+a.is-secondary{
+  background-color:rgba(51, 4, 4, 0);
+  &:hover{
+    background-color:rgba(51, 4, 4, 0.02);
+
+  }
+}
 
 .footer .content a{
   color:$primary;
