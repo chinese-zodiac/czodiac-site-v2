@@ -12,7 +12,7 @@ import MotherChild from 'assets/images/mother-child.png';
 import CzfLift from 'assets/images/grainlift.png';
 import CzusdFactory from 'assets/images/factory.png';
 import PfpXcrypto from 'assets/team/xcryptoturnip.png';
-import PfpDave from 'assets/team/dave.png';
+import PfpDave from 'assets/team/dave.jpg';
 import PfpPlastic from 'assets/team/plastic.png';
 import PfpSai from 'assets/team/sai.png';
 import PfpT4c0 from 'assets/team/t4c0.png';
@@ -124,7 +124,7 @@ class BackToTop extends Component {
                     <ul>
                         <li class="mb-3">
                             <span class="title pt-5 is-size-5 mb-0">HARDENED:</span><br/>
-                            Market dumps, fud campaigns, hacker exploits, Malicious bots. Our experience and technology protects against all threats.
+                            Market dumps, fud campaigns, hacker exploits, malicious bots. Our experience and technology protects against all threats.
                         </li>
                         <li class="mb-3">
                             <span class="title pt-5 is-size-5 mb-0">COMMUNITY: </span><br/>
@@ -242,7 +242,7 @@ class BackToTop extends Component {
                             <img src={CzusdLogo} />
                         </figure>
                     <p class="has-text-left title is-cursive">Czusd.</p>
-                    <p class="has-text-left subtitle is-size-6">Earn high yield safely.</p>
+                    <p class="has-text-left subtitle is-size-6">Safely earn high yield.</p>
                     <figure class="image">
                         <img src={CzusdFactory} style={{marginLeft:"auto",marginRight:"auto"}} />
                     </figure>
