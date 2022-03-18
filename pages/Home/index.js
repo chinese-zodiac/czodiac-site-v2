@@ -124,7 +124,7 @@ class BackToTop extends Component {
                     <ul>
                         <li class="mb-3">
                             <span class="title pt-5 is-size-5 mb-0">HARDENED:</span><br/>
-                            Market dumps, fud campaigns, hacker exploits, malicious bots. Our experience and technology protects against all threats.
+                            Market dumps, fud campaigns, hacker exploits, malicious bots. Our experience and technology protect against all threats.
                         </li>
                         <li class="mb-3">
                             <span class="title pt-5 is-size-5 mb-0">COMMUNITY: </span><br/>
@@ -223,12 +223,6 @@ class BackToTop extends Component {
                         Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest. 
                         </p>
                     </div>
-                    <a class="mr-2 button is-rounded is-primary" href="https://cz.farm" target="_blank">
-                        <span class="icon">
-                            <i class="fa-solid fa-circle-dollar-to-slot" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
-                        </span>
-                        <span style={{padding:"0"}}>Stake on CZ.Farm</span>
-                    </a>
                 </div>
             </div>
             <div class="hero-footer">
