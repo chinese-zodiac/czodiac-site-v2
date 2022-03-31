@@ -49,9 +49,9 @@ class BackToTop extends Component {
       return (<>
       <section id="home" class="hero is-fullheight has-background-gradient">
         <div class="hero-title">            
-            <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small mr-5 ml-5 mb-0" aria-label="breadcrumbs">
+            <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small pr-5 mb-0" style={{maxWidth:"1344px",marginLeft:"auto",marginRight:"auto"}} aria-label="breadcrumbs">
                 <ul>
-                    <li><a href="#fairtribe">FAIRTRIBE</a></li>
+                    <li><a href="#launchpad">LAUNCHPAD</a></li>
                     <li><a href="#czf">CZF</a></li>
                     <li ><a href="#czusd" >CZUSD</a></li>
                     <li ><a href="#nft" >NFT</a></li>
@@ -71,6 +71,12 @@ class BackToTop extends Component {
                         <i class="fa-solid fa-tractor" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
                     </span>
                     <span style={{padding:"0"}}>cz.farm</span>
+                </a>
+                <a class="button is-rounded m-1 is-small is-secondary" href="https://app.czodiac.com" target="_blank">
+                    <span class="icon">
+                        <i class="fa-solid fa-coins" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>numis.cz.cash</span>
                 </a>
                 <a class="button is-rounded m-1 is-small is-secondary" href="https://app.czodiac.com" target="_blank">
                     <span class="icon">
