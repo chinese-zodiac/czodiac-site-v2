@@ -72,7 +72,7 @@ class BackToTop extends Component {
                     </span>
                     <span style={{padding:"0"}}>cz.farm</span>
                 </a>
-                <a class="button is-rounded m-1 is-small is-secondary" href="https://app.czodiac.com" target="_blank">
+                <a class="button is-rounded m-1 is-small is-secondary" href="https://numis.cz.cash" target="_blank">
                     <span class="icon">
                         <i class="fa-solid fa-coins" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
                     </span>
