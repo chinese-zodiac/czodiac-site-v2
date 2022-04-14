@@ -25,7 +25,7 @@ const CZF_CZUSD_LP = "0x98b5f5e7ec32cda1f3e89936c9972f92296afe47";
 const TWITTER = "https://twitter.com/zodiacs_c";
 const TELEGRAM = "https://t.me/CZodiacofficial";
 const CZUSD_AUTOFARM_STAKE = "https://autofarm.network/bsc/602/";
-const CZUSD_ELLIPSIS_POOL = "https://ellipsis.finance/pool/0";
+const CZUSD_ELLIPSIS_POOL = "https://ellipsis.finance/pool/19";
 const CZODIAC_NFT = "0x6Bf5843b39EB6D5d7ee38c0b789CcdE42FE396b4";
 
 
