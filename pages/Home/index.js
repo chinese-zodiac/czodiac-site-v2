@@ -118,6 +118,27 @@ class BackToTop extends Component {
                 </span>
                 <span style={{padding:"0"}}>Chat</span>
             </a>
+            <br/>
+            <article class="message mt-5 is-info">
+            <div class="message-header">
+                <p>LAUNCH NOTICE (LRT)</p>
+            </div>
+            <div class="message-body">
+                LuckyRabbitToken Launch at 2:00 am UTC April 16 on cz.cash. Hold LRT and win yield bearing Rabbit NFTs every $2500 in volume.<br/>
+                <a class="mr-2 button is-rounded is-info" href="https://cz.cash/#/swap?outputCurrency=0xE95412D2d374B957ca7f8d96ABe6b6c1148fA438" target="_blank">
+                    <span class="icon">
+                        <i class="fa-solid fa-arrow-right-arrow-left" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>Buy</span>
+                </a>
+                <a class="button is-rounded is-info" href="https://t.me/czluckyrabbit" target="_blank">
+                    <span class="icon">
+                        <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
+                    </span>
+                    <span style={{padding:"0"}}>Lucky Rabbit Club</span>
+                </a>
+            </div>
+            </article>
           </div>
         </div>
         </section>
