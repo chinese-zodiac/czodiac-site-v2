@@ -4,6 +4,7 @@ import Collapsibles from '../../components/Collapsibles';
 import CZodiacLogo from 'assets/logo.png';
 import Umbrella from 'assets/images/umbrella.png';
 import Blanket from 'assets/images/blanket.png';
+import Sokuswap from 'assets/images/sokuswap.png';
 import CzfLogo from 'assets/images/czflogo.png';
 import CzusdLogo from 'assets/images/czusd.png';
 import CzfPump from 'assets/images/pump2.png';
@@ -377,9 +378,15 @@ class BackToTop extends Component {
                 <div class="container">
                     <p class="title mt-2 is-cursive">The Best of Defi.</p>
                     <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, Sokuswap and more. </p>
-                    <figure style={{marginLeft:"auto",marginRight:"auto",maxWidth:"256px"}}>
+                    <div style={{marginLeft:"auto",marginRight:"auto",maxWidth:"256px"}}>
+                    <figure class="m-1" style={{marginRight:"auto",maxWidth:"256px",display:"inline-block"}}>
                         <img src={Partners}  />
                     </figure>
+                    <figure class="m-1"  style={{marginRight:"auto",maxHeight:"256px",display:"inline-block"}}>
+                        <img src={Sokuswap}  />
+                    </figure>
+
+                    </div>
                 </div>
             </div>
             <div class="hero-footer">
