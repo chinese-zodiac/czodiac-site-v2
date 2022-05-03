@@ -376,7 +376,7 @@ class BackToTop extends Component {
             <div class="hero-body">
                 <div class="container">
                     <p class="title mt-2 is-cursive">The Best of Defi.</p>
-                    <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, and more. </p>
+                    <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, Sokuswap and more. </p>
                     <figure style={{marginLeft:"auto",marginRight:"auto",maxWidth:"256px"}}>
                         <img src={Partners}  />
                     </figure>
