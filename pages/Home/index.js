@@ -382,9 +382,6 @@ class BackToTop extends Component {
                     <figure class="m-1" style={{marginRight:"auto",maxWidth:"256px",display:"inline-block"}}>
                         <img src={Partners}  />
                     </figure>
-                    <figure class="m-1"  style={{marginRight:"auto",maxHeight:"256px",display:"inline-block"}}>
-                        <img src={Sokuswap}  />
-                    </figure>
 
                     </div>
                 </div>
