@@ -52,7 +52,7 @@ class BackToTop extends Component {
         <div class="hero-title">            
             <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small pr-5 mb-0" style={{maxWidth:"1344px",marginLeft:"auto",marginRight:"auto"}} aria-label="breadcrumbs">
                 <ul>
-                    <li><a href="#launchpad">LAUNCHPAD</a></li>
+                    <li><a href="#fairtribe">FAIRTRIBE</a></li>
                     <li><a href="#czf">CZF</a></li>
                     <li ><a href="#czusd" >CZUSD</a></li>
                     <li ><a href="#nft" >NFT</a></li>
@@ -119,27 +119,6 @@ class BackToTop extends Component {
                 </span>
                 <span style={{padding:"0"}}>Chat</span>
             </a>
-            <br/>
-            <article class="message mt-5 is-info">
-            <div class="message-header">
-                <p>LAUNCH NOTICE (LRT)</p>
-            </div>
-            <div class="message-body">
-                LuckyRabbitToken Launch at 2:00 am UTC April 16 on cz.cash. Hold LRT and win yield bearing Rabbit NFTs every $2500 in volume.<br/>
-                <a class="mr-2 button is-rounded is-info" href="https://cz.cash/#/swap?outputCurrency=0xE95412D2d374B957ca7f8d96ABe6b6c1148fA438" target="_blank">
-                    <span class="icon">
-                        <i class="fa-solid fa-arrow-right-arrow-left" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
-                    </span>
-                    <span style={{padding:"0"}}>Buy</span>
-                </a>
-                <a class="button is-rounded is-info" href="https://t.me/czluckyrabbit" target="_blank">
-                    <span class="icon">
-                        <i class="fa-brands fa-telegram" style={{position:'relative',top:"-0.1em",left:"0.1em"}}></i>
-                    </span>
-                    <span style={{padding:"0"}}>Lucky Rabbit Club</span>
-                </a>
-            </div>
-            </article>
           </div>
         </div>
         </section>
@@ -203,6 +182,33 @@ class BackToTop extends Component {
                     <figure class="image">
                         <img src={Blanket} style={{marginLeft:"auto",marginRight:"auto"}} />
                     </figure>
+                    <p class="title is-size-3 mb-2 mt-6 is-cursive">
+                        Select Launches.
+                    </p>
+                    <div style={{borderTop:"solid 1px #ddd"}} className="p-2 m-0" >
+                        <b>GEM:</b>
+                        <a target="_blank" href="https://greenminer.space" className="ml-1" style={{textDecoration:"underline"}}>site</a>
+                        <a target="_blank" href="https://t.me/GreenMinerr" className="ml-1" style={{textDecoration:"underline"}}>telegram</a>
+                        <a target="_blank" href="https://dexscreener.com/bsc/0x9321907037fa062b52b3f564b3350adf935bf698" className="ml-1" style={{textDecoration:"underline"}}>chart</a>
+                        <a target="_blank" href="https://cz.cash/#/swap?outputCurrency=0x701F1ed50Aa5e784B8Fb89d1Ba05cCCd627839a7" className="ml-1" style={{textDecoration:"underline"}}>buy</a><br/>
+                        Rising price floor powered by a solar and wind GPU mining operation farm.
+                    </div>
+                    <div style={{borderTop:"solid 1px #ddd"}} className="p-2 m-0" >
+                        <b>LSDT:</b>
+                        <a target="_blank" href="https://rafalovichcoins.com/nfts" className="ml-1" style={{textDecoration:"underline"}}>site</a>
+                        <a target="_blank" href="https://t.me/rafalovichcoins" className="ml-1" style={{textDecoration:"underline"}}>telegram</a>
+                        <a target="_blank" href="https://dexscreener.com/bsc/0x1A067fFcE2aE6Ae395d6508891CAE339639F1c0A" className="ml-1" style={{textDecoration:"underline"}}>chart</a>
+                        <a target="_blank" href="https://cz.cash/#/swap?outputCurrency=0xD9A255F79d7970A3Ed4d81eef82b054B0a21eCF8" className="ml-1" style={{textDecoration:"underline"}}>buy</a><br/>
+                        Silver Dollar 1:1 backed NFTs dropped to LSDT holders every $80 locked.
+                    </div>
+                    <div style={{borderTop:"solid 1px #ddd"}} className="p-2 m-0" >
+                        <b>LRT:</b>
+                        <a target="_blank" href="https://rabbitcatch.com" className="ml-1" style={{textDecoration:"underline"}}>site</a>
+                        <a target="_blank" href="https://t.me/rafalovichcoins" className="ml-1" style={{textDecoration:"underline"}}>telegram</a>
+                        <a target="_blank" href="https://dexscreener.com/bsc/0x117C53a2487556bFb1E067B8de35760380342A4B" className="ml-1" style={{textDecoration:"underline"}}>chart</a>
+                        <a target="_blank" href="https://cz.cash/#/swap?outputCurrency=0xE95412D2d374B957ca7f8d96ABe6b6c1148fA438" className="ml-1" style={{textDecoration:"underline"}}>buy</a><br/>
+                        Hold LRT to Win Rabbit NFTs and receive $1/week for life in CZF airdrops.
+                    </div>
                 </div>
             </div>
             <div class="hero-footer">
@@ -377,7 +383,7 @@ class BackToTop extends Component {
             <div class="hero-body">
                 <div class="container">
                     <p class="title mt-2 is-cursive">The Best of Defi.</p>
-                    <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, Sokuswap and more. </p>
+                    <p>Our partners include your favorite defi projects on BSC. We've built exclusive relationships with Autofarm, Ellipsis, Beefy, 1inch, Donkswap, DotDot and more. </p>
                     <div style={{marginLeft:"auto",marginRight:"auto",maxWidth:"256px"}}>
                     <figure class="m-1" style={{marginRight:"auto",maxWidth:"256px",display:"inline-block"}}>
                         <img src={Partners}  />
