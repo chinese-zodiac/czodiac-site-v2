@@ -462,6 +462,9 @@ class BackToTop extends Component {
               <strong>Contact</strong><br/>
               team@czodiac.com
             </p>
+            <p>
+                <a href="https://app.czodiac.com/czodiac-pitch-deck-22-07-04.pdf">download pitch deck</a>
+            </p>
           </div>
         </footer>
       </>);
