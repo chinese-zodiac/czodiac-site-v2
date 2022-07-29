@@ -5,8 +5,8 @@ import CZodiacLogo from 'assets/logo.png';
 import Umbrella from 'assets/images/umbrella.png';
 import Blanket from 'assets/images/blanket.png';
 import Sokuswap from 'assets/images/sokuswap.png';
-import CzfLogo from 'assets/images/czflogo.png';
-import CzusdLogo from 'assets/images/czusd.png';
+import CzfLogo from 'assets/images/czf.svg';
+import CzusdLogo from 'assets/images/czusd.svg';
 import CzfPump from 'assets/images/pump2.png';
 import Partners from 'assets/images/circle.png';
 import MotherChild from 'assets/images/mother-child.png';
@@ -56,7 +56,6 @@ class BackToTop extends Component {
                     <li><a href="#czf">CZF</a></li>
                     <li ><a href="#czusd" >CZUSD</a></li>
                     <li ><a href="#nft" >NFT</a></li>
-                    <li ><a href="#team" >TEAM</a></li>
                     <li ><a href="#partners" >PARTNERS</a></li>
                 </ul>
             </nav>
@@ -220,7 +219,7 @@ class BackToTop extends Component {
                 <div class="container">
                     <p class="title is-size-5" >
                         <figure class="image is-128x128 is-rounded is-pulled-left mr-3">
-                            <img src={CzfLogo} />
+                            <img className="is-rounded has-background-dark p-1" src={CzfLogo} />
                         </figure>
                         <br/>
                         Safe Yield. <br/> Rising Floor. <br/> <span class="is-cursive is-size-4">Czfarm.</span>
@@ -267,7 +266,7 @@ class BackToTop extends Component {
             <div class="hero-body">
                 <div class="container">
                         <figure class="image is-64x64 is-rounded is-pulled-left mr-3">
-                            <img src={CzusdLogo} />
+                            <img className="is-rounded has-background-dark p-1" src={CzusdLogo} />
                         </figure>
                     <p class="has-text-left title is-cursive">Czusd.</p>
                     <p class="has-text-left subtitle is-size-6">Safely earn high yield.</p>
@@ -317,65 +316,6 @@ class BackToTop extends Component {
                 <figure class="image">
                     <img src={MotherChild} style={{marginLeft:"auto",marginRight:"auto",width:"200px",position:"relative",top:"54px"}} />
                 </figure>
-                <BackToTop />
-            </div>
-        </section>
-        <section id="team" class="hero is-fullheight has-background-gradient has-text-centered">
-            <div class="hero-body">
-                <div class="container">
-                    <p class="title mt-2 is-cursive">Who We Are.</p>
-                    <p class="mb-4">Our team of professional executives are KYC with backgrounds in blockchain, startups, and new technologies.</p>
-                    <div class="columns is-mobile" style={{maxWidth:"450px",marginLeft:"auto",marginRight:"auto"}}>
-                        <div class="column">
-                            <div class="container mb-3">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpXcrypto}  />
-                                </figure>
-                                <p>xCrypto
-                                <br/>CEO</p>
-                            </div>
-                            <div class="container mb-3">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpT4c0}  />
-                                </figure>
-                                <p>T4C0
-                                <br/>COO</p>
-                            </div>
-                            <div class="containe mb-3r">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpIcashy}  />
-                                </figure>
-                                <p>iCashy
-                                <br/>Visual Director</p>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="container mb-3">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpPlastic}  />
-                                </figure>
-                                <p>Plastic Digits
-                                <br/>CTO</p>
-                            </div>
-                            <div class="container mb-3">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpSai}  />
-                                </figure>
-                                <p>Sai
-                                <br/>CM Lead</p>
-                            </div>
-                            <div class="container mb-3">
-                                <figure style={{marginLeft:"auto",marginRight:"auto"}} class="image is-128x128">
-                                    <img class="is-rounded" src={PfpDave}  />
-                                </figure>
-                                <p>Dave
-                                <br/>Chief Editor</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-footer">
                 <BackToTop />
             </div>
         </section>
