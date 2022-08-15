@@ -185,6 +185,14 @@ class BackToTop extends Component {
                         Select Launches.
                     </p>
                     <div style={{borderTop:"solid 1px #ddd"}} className="p-2 m-0" >
+                        <b>DGOD:</b>
+                        <a target="_blank" href="https://dogegod.io" className="ml-1" style={{textDecoration:"underline"}}>site</a>
+                        <a target="_blank" href="https://t.me/dogegod_token" className="ml-1" style={{textDecoration:"underline"}}>telegram</a>
+                        <a target="_blank" href="https://dexscreener.com/bsc/0xC0B4dCC1d249D177a43bdAA13649f9b2830744A7" className="ml-1" style={{textDecoration:"underline"}}>chart</a>
+                        <a target="_blank" href="https://cz.cash/#/swap?outputCurrency=0x99F4cc2BAE97F82A823CA80DcAe52EF972B7F270" className="ml-1" style={{textDecoration:"underline"}}>buy</a><br/>
+                        Earn Dogecoin every second without a single sell.
+                    </div>
+                    <div style={{borderTop:"solid 1px #ddd"}} className="p-2 m-0" >
                         <b>GEM:</b>
                         <a target="_blank" href="https://greenminer.space" className="ml-1" style={{textDecoration:"underline"}}>site</a>
                         <a target="_blank" href="https://t.me/GreenMinerr" className="ml-1" style={{textDecoration:"underline"}}>telegram</a>
