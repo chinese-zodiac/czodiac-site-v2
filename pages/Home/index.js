@@ -214,7 +214,7 @@ class Home extends Component {
                             <a target="_blank" href="https://t.me/rafalovichcoins" className="ml-1" style={{ textDecoration: "underline" }}>telegram</a>
                             <a target="_blank" href="https://dexscreener.com/bsc/0x117C53a2487556bFb1E067B8de35760380342A4B" className="ml-1" style={{ textDecoration: "underline" }}>chart</a>
                             <a target="_blank" href="https://cz.cash/#/swap?outputCurrency=0xE95412D2d374B957ca7f8d96ABe6b6c1148fA438" className="ml-1" style={{ textDecoration: "underline" }}>buy</a><br />
-                            Hold LRT to Win Rabbit NFTs and receive $1/week for life in CZF airdrops.
+                            Hold LRT to get access to unique cz.farm pools and win NFTs.
                         </div>
                     </div>
                 </div>
