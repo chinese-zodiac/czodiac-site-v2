@@ -5,12 +5,10 @@ import CZodiacLogo from 'assets/logo.png';
 import Umbrella from 'assets/images/umbrella.png';
 import Blanket from 'assets/images/blanket.png';
 import Sokuswap from 'assets/images/sokuswap.png';
-import CzfLogo from 'assets/images/czf.svg';
 import CzusdLogo from 'assets/images/czusd.svg';
 import CzfPump from 'assets/images/pump2.png';
 import Partners from 'assets/images/circle.png';
 import MotherChild from 'assets/images/mother-child.png';
-import CzfLift from 'assets/images/grainlift.png';
 import CzusdFactory from 'assets/images/factory.png';
 import PfpXcrypto from 'assets/team/xcryptoturnip.png';
 import PfpDave from 'assets/team/dave.jpg';
@@ -19,10 +17,12 @@ import PfpSai from 'assets/team/sai.png';
 import PfpT4c0 from 'assets/team/t4c0.png';
 import PfpIcashy from 'assets/team/icashy.png';
 import CZodiacLogoWide from 'assets/images/logo-wide-3x1.png';
+import CZRedLogo from 'assets/images/czred.svg';
+import CZRedLogoWithBg from 'assets/images/czred-with-bg.svg';
 import "./index.scss";
 const CZUSD = "0xE68b79e51bf826534Ff37AA9CeE71a3842ee9c70";
-const CZF = "0x7c1608C004F20c3520f70b924E2BfeF092dA0043";
-const CZF_CZUSD_LP = "0x98b5f5e7ec32cda1f3e89936c9972f92296afe47";
+const CZR = "0x5cd0c2C744caF04cda258Efc6558A3Ed3defE97b";
+const CZR_CZUSD_LP = "0xbF92a0c60a129a56485A3fb891851cF88798602D";
 const TWITTER = "https://twitter.com/zodiacs_c";
 const TELEGRAM = "https://t.me/CZodiacofficial";
 const CZUSD_AUTOFARM_STAKE = "https://autofarm.network/bsc/602/";
@@ -53,7 +53,7 @@ class Home extends Component {
                     <nav class="breadcrumb is-right pt-4 has-bullet-separator is-small pr-5 mb-0" style={{ maxWidth: "1344px", marginLeft: "auto", marginRight: "auto" }} aria-label="breadcrumbs">
                         <ul>
                             <li><a href="#fairtribe">FAIRTRIBE</a></li>
-                            <li><a href="#czf">CZF</a></li>
+                            <li><a href="#czr">CZR</a></li>
                             <li ><a href="#czusd" >CZUSD</a></li>
                             <li ><a href="#nft" >NFT</a></li>
                             <li ><a href="#partners" >PARTNERS</a></li>
@@ -90,33 +90,33 @@ class Home extends Component {
                 </div>
                 <div class="hero-body">
                     <div class="container has-text-centered " style={{ maxWidth: "700px" }}>
-                        <figure class="image is-3by1">
-                            <img src={CZodiacLogoWide} />
+                        <figure class="image">
+                            <img src={CZRedLogo} />
                         </figure>
                         <p class="title is-size-5 is-cursive" >
                             <br />
                             The Global Defi Investment Bank.
                         </p>
                         <p class="subtitle is-size-6">
-                            Yield from assets backing CZUSD burn CZF,<br />with profits building a rising price floor.
+                            CZUSD profits buy our partner tokens,<br />which are distributed to CZR Stakers on cz.farm.
                         </p>
-                        <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=" + CZF} target="_blank">
+                        <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=" + CZR} target="_blank">
                             <span class="icon">
                                 <i class="fa-solid fa-arrow-right-arrow-left" style={{ position: 'relative', top: "-0.1em", left: "0.1em" }}></i>
                             </span>
-                            <span style={{ padding: "0" }}>Trade</span>
+                            <span style={{ padding: "0" }}>Trade CZR</span>
                         </a>
-                        <a class="mr-2 button is-rounded is-primary" href={"https://dexscreener.com/bsc/" + CZF_CZUSD_LP} target="_blank">
+                        <a class="mr-2 button is-rounded is-primary" href={"https://dexscreener.com/bsc/" + CZR_CZUSD_LP} target="_blank">
                             <span class="icon">
                                 <i class="fa-solid fa-chart-line" style={{ position: 'relative', top: "-0.1em", left: "0.1em" }}></i>
                             </span>
-                            <span style={{ padding: "0" }}>Chart</span>
+                            <span style={{ padding: "0" }}>Chart CZR</span>
                         </a>
                         <a class="button is-rounded is-primary" href={TELEGRAM} target="_blank">
                             <span class="icon">
                                 <i class="fa-brands fa-telegram" style={{ position: 'relative', top: "-0.1em", left: "0.1em" }}></i>
                             </span>
-                            <span style={{ padding: "0" }}>Chat</span>
+                            <span style={{ padding: "0" }}>Chat CZR</span>
                         </a>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ class Home extends Component {
                             </li>
                             <li>
                                 <span class="title pt-5 is-size-5 mb-0">STABILITY: </span><br />
-                                Weak projects rent liquidity from VC that disappears. Our treasury invests our assets to earn yield burning CZF for a rising price floor.
+                                Weak projects rent liquidity from VC that disappears. Our treasury earns profits from selling products in CZUSD.
                             </li>
                         </ul>
                     </div>
@@ -222,18 +222,18 @@ class Home extends Component {
                     <BackToTop />
                 </div>
             </section>
-            <section id="czf" class="hero is-fullheight has-text-left">
+            <section id="czr" class="hero is-fullheight has-text-left">
                 <div class="hero-body">
                     <div class="container">
                         <p class="title is-size-5" >
                             <figure class="image is-128x128 is-rounded is-pulled-left mr-3">
-                                <img className="is-rounded has-background-dark p-1" src={CzfLogo} />
+                                <img className="is-rounded has-background-dark p-1" src={CZRedLogoWithBg} />
                             </figure>
                             <br />
-                            Safe Yield. <br /> Rising Floor. <br /> <span class="is-cursive is-size-4">Czfarm.</span>
+                            Safe Yield. <br /> Rising Floor. <br /> <span class="is-cursive is-size-4">CZRed.</span>
                         </p>
                         <p class="pt-4">
-                            <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=" + CZF} target="_blank">
+                            <a class="mr-2 button is-rounded is-primary" href={"https://cz.cash/#/swap?inputCurrency=BNB&outputCurrency=" + CZR} target="_blank">
                                 <span class="icon">
                                     <i class="fa-solid fa-arrow-right-arrow-left" style={{ position: 'relative', top: "-0.1em", left: "0.1em" }}></i>
                                 </span>
@@ -247,23 +247,6 @@ class Home extends Component {
                             </a>
                         </p>
                         <hr />
-                        <div class="container">
-                            <figure class="image is-pulled-right" style={{ maxWidth: "20%", width: "90px" }}>
-                                <img src={CzfPump} />
-                            </figure>
-                            <p class="title pt-5 is-size-5 mb-0">
-                                CZF Chrono Pools
-                            </p>
-                            <p>
-                                Burn CZF to earn rewards each block for the vesting period. Rewards can be fast forwarded from the future at a discount.
-                            </p>
-                            <p class="title pt-5 is-size-5 mb-0">
-                                CZF Exotic Farms
-                            </p>
-                            <p>
-                                Deliver liquidity tokens (LP) to earn vesting CZF. The amount of vesting CZF is equal to the value of the LP in CZF plus interest.
-                            </p>
-                        </div>
                     </div>
                 </div>
                 <div class="hero-footer">
@@ -310,7 +293,7 @@ class Home extends Component {
                         <p class="is-size-3 is-cursive"><b>Nfts with yield.</b></p>
                         <p>
                             An NFT series with regular releases of new creatures representing the cycle of Chinese Zodiacs.
-                            <br />All CZodiac NFT holders are airdropped CZF once a week, forever.
+                            <br />NFTs can be staked to earn CZRed from the 1% tax.
                         </p>
                         <a class="mr-2 mt-2 button is-rounded is-primary" href={"https://treasureland.market/assets?contract=" + CZODIAC_NFT} target="_blank">
                             <span class="icon">
@@ -348,9 +331,9 @@ class Home extends Component {
             <footer id="footer" class="footer is-dark">
                 <div class="content has-text-centered">
                     <p>
-                        <a class="m-2 mr-4" href={"https://bscscan.com/token/" + CZF} target="_blank">
+                        <a class="m-2 mr-4" href={"https://bscscan.com/token/" + CZR} target="_blank">
                             <figure class="image is-16x16 is-rounded m-0" style={{ display: "inline-block", top: "2px", position: "relative" }}>
-                                <img src={CzfLogo} />
+                                <img src={CZRedLogoWithBg} />
                             </figure>
                         </a>
                         <a class="m-2 mr-3" href={"https://bscscan.com/token/" + CZUSD} target="_blank">
@@ -403,7 +386,7 @@ class Home extends Component {
                     <p>
                         <strong>Legal Disclaimer</strong><br />
                         <span class="is-size-7">
-                            Nothing on this site or on related channels should be considered a promise by anyone, including but not limited to the developers and promoters of this site, to perform work to generate profits for anyone including but not limited to the following: the users of this site; FairTribe community members; CZF holders; CZUSD holders; or anyone using any of the sites, smart contracts, social media channels, and any other media or tech related to CZF, CZUSD, and CZodiac or any of the community members. CZodiac, CZF, CZUSD, czodiac.com, cz.cash, cz.farm, and related technologies plus media are all experimental and must be used according to your personal financial situation and risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
+                            Nothing on this site or on related channels should be considered a promise by anyone, including but not limited to the developers and promoters of this site, to perform work to generate profits for anyone including but not limited to the following: the users of this site; FairTribe community members; CZF holders; CZR hoders; CZUSD holders; or anyone using any of the sites, smart contracts, social media channels, and any other media or tech related to CZF, CZR, CZUSD, and CZodiac or any of the community members. CZodiac, CZF, CZR, CZUSD, czodiac.com, cz.cash, cz.farm, and related technologies plus media are all experimental and must be used according to your personal financial situation and risk profile. There are no guarantees of profits, but the smart contracts are guaranteed to perform as written on the BSC blockchain.
                         </span>
                     </p>
                     <p>
