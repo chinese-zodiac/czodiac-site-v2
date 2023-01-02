@@ -391,7 +391,8 @@ class Home extends Component {
                     </p>
                     <p>
                         <strong>Contact</strong><br />
-                        team@czodiac.com
+                        team@czodiac.com<br />
+                        official@czodiac.com
                     </p>
                     <p>
                         <a href="https://app.czodiac.com/czodiac-pitch-deck-22-07-04.pdf">download pitch deck</a>
